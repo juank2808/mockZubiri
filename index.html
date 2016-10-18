@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--archivos css necesarios-->
+        <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+        
+        <link href="estilos/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/efectos.js"></script>
+    
+    
+  <nav class="blue darken 3" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Formación</a></li>
+        <li><a href="#">Proyectos</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#"><i class="material-icons left teal-text">perm_identity</i>Nosotros</a></li>
+        <li><a href="#"><i class="material-icons left teal-text">class</i>Formación</a></li>
+        <li><a href="#"><i class="material-icons left teal-text">class</i>Proyectos</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center blue-text text-darken-4">IES - Zubiri Manteo</h1>
+        <div class="row center">
+          <h5 class=" col s12 grey-text text-darken-4">Somos un centro público de Donostia que abarcamos la zona de Gros / Ulia / Ategorrieta / Egia.
+          Ofertamos los niveles de enseñanza ESO, BACHILLERATO y CICLOS FORMATIVOS DE GRADO MEDIO Y SUPERIOR.</h5>
+          <br/>
+          <a class="btn-floating waves-effect waves-red btn-large blue darken 4" href="#nosotros"><i class="material-icons right">visibility</i></a>
+          <!-------------------------------------------------------->
+          <!-- Modal Trigger -->
+      <a class="btn-floating waves-effect waves-red btn-large modal-trigger" href="#modal1"><i class="material-icons right">visibility</i></a>
+      <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Info de pagina</h4>
+            <p><img src="http://www.blogodisea.com/wp-content/uploads/2013/05/ola-ke-mira.jpg"></p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons right">close</i></a>
+          </div>
+        </div>
+      <!-------------------------------------------------------->
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="imgs/zubiriM.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header blue-text text-darken-4">Ùltimas Noticias</h2>
+      <!--seccion de noticias-->
+    <!--noticia 1-->  
+   <div class="row">
+        <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image activator">
+              <img src="imgs/intercambio.png">
+              <span class="header card-title blue-text text-darken-4 activator">Recepción a centros de Polonia, Alemania y Zubiri Manteo</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title blue-text text-darken-4"><i class="material-icons right">close</i><br/>Recepción a centros de Polonia, Alemania y Zubiri Manteo</span>
+              <p>El pasado 22 de septiembre tuvo lugar en el Ayuntamiento de Donostia la recepción por parte del Concejal de Juventud,
+              Martín Ibabe, de casi una treintena de alumnos/as del intercambio promovido por Zubiri Manteo,
+              provenientes de los siguientes centros escolares: II Liceum Ogólnoksztalcace-Gdansk (Polonia), Rheien-Maas-Berufskolleg de Kempen (Alemania) y del propio Zubiri Manteo.</p>
+            </div>
+          </div>
+        </div><!--noticia fin-->
+        <!--noti2-->
+        <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image activator">
+              <img src="imgs/noti2.jpg">
+              <span class="header card-title blue-text text-darken-4 activator">Passion for Knowledge 2016</span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title blue-text text-darken-4"><i class="material-icons right">close</i><br/>Passion for Knowledge 2016</span>
+              <p>Alumnos de Zubiri de segundo de bachillerato en los Encuentros con Premios Nobel e investigadores de primera línea dentro del congreso Passion for Knowledge 2016.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--noticia fin-->
+    </div><!--finalrow container-->
+  </div><!--final de seccion-->
+  <div class="parallax-container">
+      <div class="parallax"><img src="imgs/zubiri-manteo-01.jpg"></div>
+  </div>
+  <div class="section pink darken-1">
+    <div class="row container">
+      <h2 class="header" id="nosotros">Nosotros <i class="material-icons medium center">perm_identity</i></h2>
+      <p class="black-text text-darken-3 lighten-3">Nuestro objetivo es ofrecer una mejor enseñanza de calidad para que nuestro alumnado acceda fácilmente tanto a la Universidad como al mundo laboral.
+      Para ello, utilizamos las nuevas tecnologías y mantenemos un contacto continuo tanto con empresas locales como con empresas europeas a través de proyectos de la Comunidad Europea: Proyectos europeos e Intercambios culturales
+Además, ofrecemos servicios especializados y personalizados a las empresas e instituciones. </p><p>
+Destacar los Servicios de Diagnósticos de Necesidades de Formación (desarrollo de planes de formación) y Tecnológicos (desarrollo de planes de mejora).
+Otros servicios con que contamos son: de Orientación y Asesoramiento (formación, emprendizaje, ayuda a instituciones,…), así como de Intermediación (prácticas en empresa y bolsa de trabajo).</p>
+    </div>
+  </div>
+    </body>
+</html>
