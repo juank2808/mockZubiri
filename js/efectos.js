@@ -6,7 +6,10 @@
       edge: 'right', // Choose the horizontal origin
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
-    );
-    $('.modal-trigger').leanModal();
+    );//
+    $('.modal-trigger').leanModal();//
+
+   
+    $('.carousel.carousel-slider').carousel({full_width: true});
      
  });
