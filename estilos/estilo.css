@@ -34,3 +34,11 @@
 footer.page-footer {
   margin: 0;
 }
+.logotipo{
+  width: 70px;
+  height: 80px;
+  
+}
+nav {
+  opacity:0.5;
+}

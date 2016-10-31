@@ -10,29 +10,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
+      <!-- scripts necesarios-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    
     <script type="text/javascript" src="js/efectos.js"></script>
     
     
   <nav class="blue darken 3" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#nosotros" class="brand-logo"><img src="imgs/zubirilogo123.png" class="responsive-img logotipo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Formación</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#formacion">Formación</a></li>
         <li><a href="#">Proyectos</a></li>
       </ul>
-
+<!-- contenido del menu hamburguesa-->
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#"><i class="material-icons left teal-text">perm_identity</i>Nosotros</a></li>
-        <li><a href="#"><i class="material-icons left teal-text">class</i>Formación</a></li>
-        <li><a href="#"><i class="material-icons left teal-text">class</i>Proyectos</a></li>
+        <li><a href="#nosotros"><i class="material-icons left blue-text">perm_identity</i>Nosotros</a></li>
+        <li><a href="#formacion"><i class="material-icons left blue-text">class</i>Formación</a></li>
+        <li><a href="#proyectos"><i class="material-icons left blue-text">work</i>Proyectos</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+<!-- final contenido del menu hamburguesa-->
     </div>
   </nav>
-
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -49,11 +51,9 @@
       <!-- Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
+             <a href="#!" class=" left modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons right">close</i></a>
             <h4>Info de pagina</h4>
             <p><img src="http://www.blogodisea.com/wp-content/uploads/2013/05/ola-ke-mira.jpg"></p>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons right">close</i></a>
           </div>
         </div>
       <!-------------------------------------------------------->
@@ -68,8 +68,8 @@
       <h2 class="header blue-text text-darken-4">Ùltimas Noticias</h2>
       <!--seccion de noticias-->
     <!--noticia 1-->  
-   <div class="row">
-        <div class="col s12 m5">
+ <div class="row">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image activator">
               <img src="imgs/intercambio.png">
@@ -84,7 +84,7 @@
           </div>
         </div><!--noticia fin-->
         <!--noti2-->
-        <div class="col s12 m5">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image activator">
               <img src="imgs/noti2.jpg">
@@ -96,8 +96,9 @@
             </div>
           </div>
         </div>
-    </div>
-    <!--noticia fin-->
+        
+    </div><!--final de la row-->
+    <!--noticias fin-->
     </div><!--finalrow container-->
   </div><!--final de seccion-->
   <div class="parallax-container">
@@ -105,7 +106,7 @@
   </div>
   <div class="section pink darken-1">
     <div class="row container">
-      <h2 class="header" id="nosotros">Nosotros <i class="material-icons medium center">perm_identity</i></h2>
+      <h2 class="header center" id="nosotros">Nosotros <i class="material-icons medium center">perm_identity</i></h2>
       <p class="black-text text-darken-3 lighten-3">Nuestro objetivo es ofrecer una mejor enseñanza de calidad para que nuestro alumnado acceda fácilmente tanto a la Universidad como al mundo laboral.
       Para ello, utilizamos las nuevas tecnologías y mantenemos un contacto continuo tanto con empresas locales como con empresas europeas a través de proyectos de la Comunidad Europea: Proyectos europeos e Intercambios culturales
 Además, ofrecemos servicios especializados y personalizados a las empresas e instituciones. </p><p>
@@ -116,11 +117,11 @@ Otros servicios con que contamos son: de Orientación y Asesoramiento (formació
   <div class="parallax-container">
       <div class="parallax"><img src="imgs/zubiri-manteo-01.jpg"></div>
   </div>
-    <div class="carousel carousel-slider center" data-indicators="true">
+  <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-fixed-item left">
     </div>
-    <div class="carousel-item blue darken-4 white-text" href="#one!">
-      <h1>Formación <i class="material-icons medium center">class</i></h1>
+    <div class="carousel-item blue darken-4 white-text" href="#formacion!">
+      <h1 id="formacion">Formación <i class="material-icons medium center">class</i></h1>
       <table class="bordered">
           <tr>
               <th data-field="name">ESO</th>
@@ -136,22 +137,11 @@ Otros servicios con que contamos son: de Orientación y Asesoramiento (formació
           </tr>
       </table>
     </div>
-    <div class="carousel-item blue white-text" href="#two!">
-      <h1>Sistema Educativo<i class="material-icons medium center">class</i></h1>
-         <!--noticia 1-->  
-   <div class="row">
-        <div class="col s12 m5">
-          <div class="card">
-            <div class="card-image activator">
-              <img src="imgs/sistemaed.png">
-            </div>
-            <div class="card-reveal">
-              <span class="card-title blue-text text-darken-4"><i class="material-icons right">close</i><br/>
-              <img src="sistemaed.png">
-            </div>
-          </div>
-        </div>
-    </div><!--carousel2-->
-  </div>
+    <div class="carousel-item blue white-text" href="#sistedu!">
+      <h1>Sistema Educativo <i class="material-icons medium center">mode_edit</i></h1>
+      <img src="imgs/sistemaed2.png"></img>
+<!--carousel2-->
+    </div>
+    
     </body>
 </html>
