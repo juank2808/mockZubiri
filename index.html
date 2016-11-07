@@ -6,7 +6,7 @@
         <!--archivos css necesarios-->
         <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
         
-        <link href="estilos/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="estilos/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
@@ -15,27 +15,29 @@
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
     
     <script type="text/javascript" src="js/efectos.js"></script>
-    
-    
-  <nav class="blue darken 3" role="navigation">
+     <nav class=" blue darken-4" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#nosotros" class="brand-logo"><img src="imgs/zubirilogo123.png" class="responsive-img logotipo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#formacion">Formación</a></li>
-        <li><a href="#">Proyectos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
       </ul>
-<!-- contenido del menu hamburguesa-->
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#nosotros"><i class="material-icons left blue-text">perm_identity</i>Nosotros</a></li>
-        <li><a href="#formacion"><i class="material-icons left blue-text">class</i>Formación</a></li>
-        <li><a href="#proyectos"><i class="material-icons left blue-text">work</i>Proyectos</a></li>
+      
+   <ul id="slide-out" class="side-nav">
+       
+        <li><a href="#nosotros"><i class="material-icons blue-text">perm_identity</i>Nosotros</a></li>
+        <li><a href="#formacion"><i class="material-icons blue-text">class</i>Formación</a></li>
+        <li><a href="#proyectos"><i class="material-icons blue-text">work</i>Proyectos</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 <!-- final contenido del menu hamburguesa-->
-    </div>
+  </div>
   </nav>
+    
+ 
   <div id="index-banner" class="parallax-container">
+    
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -51,7 +53,7 @@
       <!-- Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
-             <a href="#!" class=" left modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons right">close</i></a>
+             <a href="#!" class=" left modal-action modal-close waves-effect waves-green btn-flat"></a>
             <h4>Info de pagina</h4>
             <p><img src="http://www.blogodisea.com/wp-content/uploads/2013/05/ola-ke-mira.jpg"></p>
           </div>
@@ -63,16 +65,16 @@
     </div>
     <div class="parallax"><img src="imgs/zubiriM.jpg"></div>
   </div>
-  <div class="section white">
+  <div class="section blue darken-4">
     <div class="row container">
-      <h2 class="header blue-text text-darken-4">Ùltimas Noticias</h2>
+      <h2 class="header blue-text text-lighten-5">Ùltimas Noticias  <i class="medium material-icons">description</i></h2>
       <!--seccion de noticias-->
     <!--noticia 1-->  
  <div class="row">
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image activator">
-              <img src="imgs/intercambio.png">
+            <div class="card-image z-depth-3 activator">
+              <img class="materialboxed" src="imgs/intercambio.png">
               <span class="header card-title blue-text text-darken-4 activator">Recepción a centros </span>
             </div>
             <div class="card-reveal">
@@ -86,8 +88,8 @@
         <!--noti2-->
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image activator">
-              <img src="imgs/noti2.jpg">
+            <div class="card-image z-depth-3 activator">
+              <img class="materialboxed"  src="imgs/noti2.png">
               <span class="header card-title blue-text text-darken-4 activator">Passion for Knowledge 2016</span>
             </div>
             <div class="card-reveal">
@@ -115,7 +117,7 @@ Otros servicios con que contamos son: de Orientación y Asesoramiento (formació
     </div>
   </div>
   <div class="parallax-container">
-      <div class="parallax"><img src="imgs/zubiri-manteo-01.jpg"></div>
+      <div class="parallax"><img src="imgs/visitai68.jpg"></div>
   </div>
   <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-fixed-item left">
@@ -139,9 +141,33 @@ Otros servicios con que contamos son: de Orientación y Asesoramiento (formació
     </div>
     <div class="carousel-item blue white-text" href="#sistedu!">
       <h1>Sistema Educativo <i class="material-icons medium center">mode_edit</i></h1>
-      <img src="imgs/sistemaed2.png"></img>
-<!--carousel2-->
+      <div class="col s11 m1">
+          <div class="card">
+            <div class="card-image z-depth-3 activator">
+             <!-- <img class="materialboxed" width="10px" src="imgs/sistemaed2.png"></img>-->
+            </div>
+          </div>
+        </div>
+    </div><!--fin carousel2-->
+  </div><!--fin carousel-->
+    <div class="parallax-container">
+      <div class="parallax"><img src="imgs/myzubi.jpg"></div>
+    </div>
+  <div class="section light-green accent-4" id="proyectos">
+    <div class="row container">
+       <h2 class="header center" id="nosotros">Proyectos <i class="material-icons medium center">work</i></h2>
     </div>
     
+  </div>
+  
+  <!--comienzo del footer-->
+  <footer class="page-footer red darken-4">
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2016 Copyright Juan Camilo Amaya DW32
+            </div>
+          </div>
+        </footer>
+  <!--final del footer-->
     </body>
 </html>

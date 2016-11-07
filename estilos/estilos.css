@@ -24,9 +24,16 @@
   }
 }
 
-.icon-block {
+/*.icon-block {
   padding: 0 15px;
+}*/
+
+@media (min-width: 991px) {
+  main {
+    padding-left: 120px;
+  }
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -40,5 +47,5 @@ footer.page-footer {
   
 }
 nav {
-  opacity:0.5;
+  
 }
