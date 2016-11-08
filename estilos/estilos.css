@@ -46,6 +46,8 @@ footer.page-footer {
   height: 80px;
   
 }
-nav {
-  
+.side-nav li{
+ display : block;
+ width:800px;
+ float   : left;
 }

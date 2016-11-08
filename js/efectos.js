@@ -2,8 +2,8 @@
       $('.parallax').parallax();
 
     $('.button-collapse').sideNav({
-      menuWidth: 400, // Default is 240
-      edge: 'right', // Choose the horizontal origin
+      menuWidth: 240, // Default is 240
+      edge: 'left', // Choose the horizontal origin
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
     );//
@@ -21,7 +21,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 2000);
+        }, 5000);
         return false;
       }
     }
